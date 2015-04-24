@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="PayPal Donation Button" description ="Show PayPal donation button (hosted button version)" author="FalsinSoft" />
+<UserPref name="hosted_button_id" display_name="Hosted Button ID" required="true" />
+<Content type="html"><![CDATA[
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input name="cmd" type="hidden" value="_s-xclick" />
+<input name="hosted_button_id" type="hidden" value="__UP_hosted_button_id__" />
+<input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image" />
+<img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" />
+</form>
+]]></Content>
+</Module>

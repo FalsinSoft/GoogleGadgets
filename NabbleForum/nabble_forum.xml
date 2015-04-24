@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Nabble Embedded Forum" description ="Insert your nabble forum inside the page" author="FalsinSoft" />
+<UserPref name="nabble_forum_title" display_name="Forum Title" required="true" />
+<UserPref name="nabble_forum_url" display_name="Forum Address" required="true" />
+<Content type="html"><![CDATA[
+<a href="__UP_nabble_forum_url__" id="nabblelink">__UP_nabble_forum_title__</a>
+<script src="__UP_nabble_forum_url__/embed/f1"></script>
+]]></Content>
+</Module>
